@@ -1,3 +1,6 @@
+[build]
+  publish = "src/templates"
+
 [[redirects]]
   from = "/*"
   to = "/src/templates/index.html"
