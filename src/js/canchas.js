@@ -55,7 +55,7 @@ createApp({
       fetch(this.url, options)
         .then(() => {
           alert("Cancha agregada exitosamente");
-          window.location.href = "./canchas.html";
+          window.location.href = "./index.html";
         })
         .catch((err) => {
           console.error(err);
