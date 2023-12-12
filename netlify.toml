@@ -1,7 +1,7 @@
 [build]
-  publish = "src/templates"
+  publish = "src"
 
 [[redirects]]
   from = "/*"
-  to = "/src/templates/index.html"
+  to = "/index.html"
   status = 200
