@@ -10,7 +10,7 @@ createApp({
       imagen: "",
       tipo: 0,
       precio: 0,
-      url: "http://vrunn0.pythonanywhere.com/cancha/" + id,
+      url: "https://vrunn0.pythonanywhere.com/cancha/" + id,
     };
   },
   methods: {
