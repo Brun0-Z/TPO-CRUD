@@ -2,3 +2,6 @@
   from = "/*"
   to = "/src/templates/index.html"
   status = 200
+
+  [build]
+  publish = "src/js"
