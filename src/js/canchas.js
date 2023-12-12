@@ -3,7 +3,7 @@ createApp({
   data() {
     return {
       canchas: [],
-      url: "vrunn0.pythonanywhere.com/cancha", // si ya lo subieron a pythonanywhere
+      url: "https://vrunn0.pythonanywhere.com/cancha", // si ya lo subieron a pythonanywhere
       error: false,
       cargando: true,
       /*atributos para el guardar los valores del formulario */
