@@ -1,7 +1,3 @@
-[build]
-  publish = "templates"
-  command = "npm run build" 
-
 [[redirects]]
   from = "/*"
   to = "/src/templates/index.html"
