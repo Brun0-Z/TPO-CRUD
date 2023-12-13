@@ -91,12 +91,30 @@ li:hover{
     height:auto;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  footer {
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
 .site-footer {
-    margin-top:350px;
+    
     background-color: #333;
     color: white;
     text-align: center;
-   
 }
 
 #footer-content{
@@ -107,4 +125,6 @@ li:hover{
     margin-bottom:0;
     font-size:smaller;
 }
+
+
 
