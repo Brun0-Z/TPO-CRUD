@@ -1,0 +1,110 @@
+:root{
+    --azul:#1c2eb9;
+    --amarillo:#ffe121;
+    --grisclaro:#8a8a8a;
+    --grismedio:#3c3c3c;
+    --grisoscuro:#1a1a1a;
+    --verdeoscuro:#19352a;
+    --verdemedio:#1d5529;
+    --verdeclaro:#0ca14f;
+    --turquesaclaro:#295f4e;
+    --turquesamedio:#38817a;
+    --turquesaoscuro: #253c3a;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(179, 179, 179);
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, var(--turquesaclaro),var(--turquesamedio) , var(--turquesaoscuro));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, var(--turquesaclaro),var(--turquesamedio) , var(--turquesaoscuro)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *//* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Header */
+header {
+    position:fixed;
+    top:0;
+    left:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: linear-gradient(to left, var(--verdeoscuro),var(--verdemedio) ,var(--verdeclaro) );
+    z-index: 100;
+    
+}
+
+main{
+    margin-top:70px;
+    color: #fbfae1;
+    background: -webkit-linear-gradient(to bottom, var(--turquesaclaro),var(--turquesamedio) , var(--turquesaoscuro));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, var(--turquesaclaro),var(--turquesamedio) , var(--turquesaoscuro)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.nav-list{
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content:space-between;
+    gap:.5rem;
+    margin:0;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: .7rem;
+    margin: 2rem;
+}
+
+li:hover{
+    transition: transform .2s;
+    transform: scale(1.2);
+}
+
+.nav-list li a:hover{
+    background-color: var(--amarillo);
+    color:var(--azul);
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.png-logo{
+    max-width:20rem;
+    width:15rem;
+    height:auto;
+}
+
+.site-footer {
+    margin-top:350px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+   
+}
+
+#footer-content{
+    color:rgb(0, 0, 0);
+}
+
+.footer-text{
+    margin-bottom:0;
+    font-size:smaller;
+}
+

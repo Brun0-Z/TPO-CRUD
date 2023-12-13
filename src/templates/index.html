@@ -13,10 +13,26 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="../index.css" />
   </head>
   <body>
-    <header id="header">
+    <header >
       <!-- place navbar here -->
+      <div class="logo">
+        <a href="#" rel="noopener noreferrer">
+          <img class="png-logo" src="../QPG.png" alt="logo futbol 5"/>
+        </a>
+      </div>
+      
+        <ul class="nav-list">
+          <li><a href="#">el complejo</a></li>
+          <li><a href="#sbn">nosotros</a></li>
+          <li><a href="#servicios">servicios</a></li>
+          <li><a href="#canchas">canchas</a></li>
+          <li><a href="#contact">contacto</a></li>
+          
+        </ul>
+        
     </header>
     <main>
       <div id="app" class="container">
@@ -35,7 +51,7 @@
           </section>
           <section v-else>
             <div class="table-responsive">
-              <table class="table table-bordered">
+              <table class="table table-bordered table-dark">
                 <thead>
                   <tr>
                     <th scope="col">Id</th>
@@ -80,6 +96,13 @@
           </section>
         </div>
       </div>
+      <footer class="site-footer">
+        <div id="footer-content">
+          <p class="footer-text">
+            Copyright 2023 @ Domain - All Rights Reserved - CAC GRUPO PENDIENTE
+          </p>
+        </div>
+      </footer>
     </main>
 
     <footer>
